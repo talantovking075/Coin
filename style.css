@@ -1,0 +1,61 @@
+body{
+    background: #0f0a26;
+}
+.right{
+    padding-right: 17px;
+}
+.navbar , .menu{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(42, 42, 93);
+    margin: auto;
+    width: 75%;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+.Balans{
+    color: gray ;
+    text-transform: uppercase;
+}
+.narx{
+    color: #7fbdff;
+}
+.live_market{
+    font-weight: 900;
+    font-size: 20px;
+    color: aliceblue;
+}
+.Xolat{
+    text-align: end;
+    color: rgb(29, 221, 29);
+
+}
+
+.online{
+    display: flex;
+}
+
+.menu{
+    margin-top: 2%;
+    background: none;
+    width: 75%;
+    height: 600px;
+    border: white 2px solid; 
+}
+.bozor_title{
+    color: white;
+    font-size: 30px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card{
+    width: 100vh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
