@@ -49,7 +49,8 @@
             </div>
             </div>
 
-            <div class="sotuv">
+            <div class="left">
+                <div class="sotuv">
                 <h1 style="color: wheat; text-align: center;" >Sotuv bolimi</h1>
                 <input class="imput" type="text" placeholder="COIN">
                 <input class="imput" type="number" placeholder="narxi">
@@ -59,7 +60,36 @@
                     <button class="reset" >Reset </button>
                 </div>
             </div>
-    </div>
+
+            <section id="calculator" class="calculator-section">
+  <h2>Kichik Coin Calculator</h2>
+  <form id="coin-form">
+    <label for="amount">Miqdor:</label>
+    <input type="number" id="amount" placeholder="Masalan, 1" required>
+    
+    <label for="from-currency">Dan:</label>
+    <select id="from-currency">
+      <option value="btc">Bitcoin (BTC)</option>
+      <option value="eth">Ethereum (ETH)</option>
+      <option value="usdt">Tether (USDT)</option>
+      <!-- Qo'shimcha valyutalar qo'shishingiz mumkin -->
+    </select>
+    
+    <label for="to-currency">Ga:</label>
+    <select id="to-currency">
+      <option value="usd">USD</option>
+      <option value="eur">EUR</option>
+      <option value="btc">Bitcoin (BTC)</option>
+      <!-- Qo'shimcha valyutalar -->
+    </select>
+    
+    <button type="button" onclick="calculateCoin()">Hisoblash</button>
+  </form>
+  <p id="result"></p>
+</section>
+            </div>
+
+        </div>
     <script src="./main.js"></script>
 </body>
 </html>
