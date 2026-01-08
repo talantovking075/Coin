@@ -70,7 +70,7 @@ body { position: relative; z-index: 1; }
     width: 600px;
     border: 2px solid rgb(24, 0, 245);
     display: flex;
-    background-color: #1a123d;
+      background-color: #1a123d;
     justify-content: space-between;
     padding: 20px;
     border-radius: 15px;
